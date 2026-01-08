@@ -1,0 +1,24 @@
+{
+  "name": "tstyche-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The TSTyche starter project.",
+  "keywords": [
+    "typescript",
+    "types",
+    "test",
+    "starter"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test:types": "tstyche"
+  },
+  "devDependencies": {
+    "tstyche": "^6.0.3",
+    "typescript": "^5.9.3"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:types"
+  }
+}
